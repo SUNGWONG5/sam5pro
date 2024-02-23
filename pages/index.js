@@ -5,7 +5,6 @@ const Home = () => (
   <div className="bg-primary-black overflow-hidden">
     <Navbar />
     <Hero />
-    <Insights />
 
     <div className="relative">
       <About />
@@ -19,7 +18,8 @@ const Home = () => (
     </div>
     <World />
     <div className="relative">
-      <div className="gradient-04 z-0" />
+        <Insights />
+        <div className="gradient-04 z-0" />
       <Feedback />
     </div>
     <Footer />
